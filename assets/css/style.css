@@ -1,0 +1,65 @@
+body {
+    background-color: beige;
+    color: darkcyan;
+}
+
+.btn {
+    margin: 10px;
+    background-color: darkcyan;
+    color: white;
+}
+
+#gifs {
+	float: left;
+}
+
+.board {
+    background-color: burlywood;
+} 
+
+.animal {
+    margin: 10px;
+}
+
+#gif-input {
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: light-gray;
+}
+
+#add-animal {
+    margin-left: 5px;
+}
+
+.animal-case {
+    position:relative;
+    display:inline-block;
+    margin: 10px;
+    width: 240px; 
+    height: 170px;
+}
+
+.animal-rating {
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: darkcyan;
+    width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+    font-size: 12px;
+    text-align: center;
+    margin:0;
+}
+
+.animal-case:hover .animal-rating {
+    display:block;
+}
+
+.gif {
+    width: 100%;
+    height: 100%;
+}

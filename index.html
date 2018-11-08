@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Animal Buttons</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+  <!-- Our CSS style sheet -->
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" /> -->
+  
+</head>
+
+<body>
+   
+  <div class="container">
+
+    <h1>Animal Gifs</h1>
+
+    <div class = "row jumbotron board">
+      <div class = "col-md-12" id="animal-buttons">
+      </div>
+    </div>
+
+    <div class = "row">
+        <div class = "col-md-9 jumbotron board" id="gifs-appear-here">
+          Animal pics here!
+        </div>
+     
+    <div class = "col-md-3">
+      <h4>Add an Animal</h4>
+        <form id="gif-form">
+          <label for="gif-input"></label>
+          <input type="text" value="" id="gif-input"><br><br>
+          <input type="submit" name="Button" class="btn btn-success" id="add-animal">
+        </form>
+    </div>
+  
+  </div>
+
+    <script src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
+      <!-- Local javascript operations file -->
+      <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
