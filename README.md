@@ -1,4 +1,4 @@
-# giftastic
+# giftastic https://dinhdothuy.github.io/giftastic/
 
 In this excercise, I used the GIPHY API to make a dynamic web page that populates with gifs of your choice. 
 To finish this task, I get the GIPHY API and use JavaScript and jQuery to change the HTML of the site.
